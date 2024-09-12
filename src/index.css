@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+  
+  /* .addImage{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 
+    0 4px 6px rgba(0, 0, 0, 0.1);
+  } */
+
+ ::-webkit-scrollbar{
+  display:none;
+  background: transparent;
+  box-shadow: none;
+  width: 9px;
+ }
+
+ ::-webkit-scrollbar-thumb{
+  background: white;
+    background: linear-gradient(to bottom right, #888989, #4a4e54);
+    border-radius: 8px;
+    box-shadow: 2px 0 5px 0 rgb(0, 0, 0);
+    height: 40px;
+}
+ 
