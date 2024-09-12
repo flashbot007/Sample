@@ -172,13 +172,13 @@ const Sections = () => {
         </div>
 
         {/* gallery section  */}
-        <div className="relative  flex flex-col shadow-[5px_5px_5px_0px_rgba(0,0,0,1)] pl-[32px] bg-[#363C43]   pt-[17px] md:h-[350px]  rounded-2xl">
+        <div className="relative  flex flex-col lg:pr-[40px] pr-[30px] shadow-[5px_5px_5px_0px_rgba(0,0,0,1)] pl-[32px] bg-[#363C43]   pt-[17px] md:h-[350px]  rounded-2xl">
           <div className="absolute left-[10px]  question h-[120px] flex flex-col justify-between w-fit items-center">
             <img src="/Vector.png" alt="" />
             <img src="/box.png" alt="" />
           </div>
 
-          <div className="flex  lg:justify-between  pl-[21px]  items-center lg:pr-[53px] pr-[30px] ">
+          <div className="flex  lg:justify-between  pr-[13px] pl-[21px]  items-center  ">
             <div className="gallery bg-black rounded-2xl text-white max-xl:text-sm xl:py-4 py-3 lg:px-7 xl:px-10 px-4">
               Gallery
             </div>
@@ -260,7 +260,7 @@ const Sections = () => {
 
           <div
             ref={galleryRef}
-            className="relative pl-[21px]  pb-[22px] max-w-[588px]   mt-0  pt-7  gallery-imgs  overflow-x-auto   whitespace-nowrap  flex  gap-[18px]  h-full"
+            className="relative pl-[21px]  pb-[22px] w-full border  mt-0  pt-7  gallery-imgs  overflow-x-auto   whitespace-nowrap  flex  gap-[18px]  h-full"
           >
             <div
               id="threed"
